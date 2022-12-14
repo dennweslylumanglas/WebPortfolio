@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;s
+
+}
+html {
+  scroll-behavior: smooth;
+
+}
+
+.bg {
+    background-image: url("bg.png")
+}
+#intro {
+    font-family: 'Chivo Mono', monospace;
+}
+
+#intro ul li {
+    display: inline-block;
+    list-style: none;   
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+#aboutMe {
+    font-family: 'Chivo Mono', monospace;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0px;
+    background: #ffffff;
+    position: absolute;
+    bottom: 1px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.container .card {
+    filter: blur(40px);
+    opacity: 0.5;
+}
+.container:hover .card {
+    filter: blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+
+.container .card:hover {
+    filter: blur(0px);
+    transform: scale(1.0);
+    opacity: 1;
+}
