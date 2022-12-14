@@ -37,10 +37,15 @@ html {
   color: white;
 }
 
-.fa-twitter {
-  background: #55ACEE;
+.fa-linkedin {
+  background: #007bb5;
   color: white;
 }
+#footer ul li a{
+    list-style: none;
+
+}
+
 #aboutMe {
     font-family: 'Chivo Mono', monospace;
 }
