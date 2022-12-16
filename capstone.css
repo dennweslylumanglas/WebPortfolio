@@ -17,6 +17,13 @@ html {
     font-family: 'Chivo Mono', monospace;
 }
 
+.card {
+    font-family: 'Chivo Mono', monospace;
+}
+h1 {
+    font-family: 'Chivo Mono', monospace;
+}
+
 #intro ul li {
     display: inline-block;
     list-style: none;   
